@@ -1,9 +1,13 @@
 import './My.css';
+import MyTime from './MyTime';
 
 function MyTick() {
-  console.log("MyTick");
   return (
-    <h2 className="myh2">현재시간</h2>
+    <div>
+    <h1 className="myh2">현재시간 : <MyTime />
+    </h1>
+    
+    </div>
   );
 }
 

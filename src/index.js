@@ -4,12 +4,23 @@ import './index.css';
 import App from './App'; // './App' = 'App.js'
 import reportWebVitals from './reportWebVitals';
 
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// const tick = () => {
+//   root.render(
+//     <React.StrictMode>
+//       <App />
+//     </React.StrictMode>
+//   );
+// }
+
+// setInterval(tick, 1000);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+setInterval(() => root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
-);
+), 1000);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
