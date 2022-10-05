@@ -6,7 +6,6 @@ function MyTick() {
     <div>
     <h1 className="myh2">현재시간 : <MyTime />
     </h1>
-    
     </div>
   );
 }
