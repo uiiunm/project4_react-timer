@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://uiiunm.github.io/project4_react_timer/",
+  "homepage": "https://uiiunm.github.io/project4_react_timer",
   "eslintConfig": {
     "extends": [
       "react-app",
